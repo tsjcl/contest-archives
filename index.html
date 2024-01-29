@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TSJCL Contest Archives</title>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LSVENV4C17"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-LSVENV4C17');
+    </script>
+  </head>
+  <body>
+    <main class="container py-5" role="main">
+      <header class="d-flex flex-column flex-md-row align-items-center py-3 px-4 mb-5 bg-white border rounded shadow">
+        <h5 class="my-0 mr-md-auto font-weight-normal">
+          <a class="text-body" href="/">
+            TSJCL Contest Archives
+          </a>
+        </h5>
+
+        <a class="btn btn-outline-primary" href="https://tsjcl.org">
+          Back to TSJCL.org
+          <i class="fa-light fa-external-link"></i>
+        </a>
+      </header>
+      <div class="p-4 mt-5 bg-white border rounded shadow">
+        <div id="contest-search-container" class="row justify-content-between">
+          <div class="col-12 col-md-4 mb-5">
+            <div id="query" class="mb-4"></div>
+
+            <h5>Year</h5>
+            <div id="year-facet" class="mb-4"></div>
+
+            <h5>Competition</h5>
+            <div id="competition-facet" class="mb-4"></div>
+
+            <h5>Contest</h5>
+            <div id="contest-facet" class="mb-4"></div>
+
+            <hr>
+
+            <div>
+              <div id="powered-by" class="mb-2"></div>
+              <small class="text-muted">
+                Site &copy; 2024 TSJCL. Content is in the public domain.
+              </small>
+            </div>
+          </div>
+          <div class="col-12 col-md-8">
+            <div id="hits-table"></div>
+
+            <div class="d-flex justify-content-center">
+              <nav id="pagination-container" aria-label="Search results pages"></nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="/src/search.ts"></script>
+  </body>
+</html>
