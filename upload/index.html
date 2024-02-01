@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TSJCL Contest Archives</title>
+  </head>
+  <body>
+    <main class="container py-5" role="main">
+      <header class="d-flex flex-column flex-md-row align-items-center py-3 px-4 mb-5 bg-white border rounded shadow">
+        <h5 class="my-0 mr-md-auto font-weight-normal">
+          <a class="text-body" href="/">
+            TSJCL Contest Archives
+          </a>
+        </h5>
+
+        <a class="btn btn-outline-primary" href="https://tsjcl.org">
+          Back to TSJCL.org
+          <i class="fa-light fa-external-link"></i>
+        </a>
+      </header>
+      <div class="p-4 mt-5 bg-white border rounded shadow">
+        <h1 class="h2">Add a file to the archive</h1>
+
+        <form enctype="multipart/form-data" method="POST" action="">
+          <div class="form-group">
+            <label for="year">Year (four digits)</label>
+            <input type="text" size="4" maxlength="4" class="form-control input-year" id="year" name="year">
+          </div>
+
+          <div class="form-group">
+            <label for="competition">Competition</label>
+            <select class="form-control" id="competition" name="competition"></select>
+          </div>
+
+          <div class="form-group">
+            <label for="contest">Contest</label>
+            <select class="form-control" id="contest" name="contest"></select>
+          </div>
+
+          <div class="form-group">
+            <label for="file">Choose the file to upload</label>
+            <input type="file" class="form-control-file" id="file" name="file">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+      </div>
+    </main>
+
+    <script type="module" src="/src/upload.ts"></script>
+  </body>
+</html>

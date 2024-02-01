@@ -7,6 +7,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@algolia/requester-fetch": "^4.22.1",
     "@cloudflare/workers-types": "^4.20240117.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/pro-light-svg-icons": "^6.5.1",

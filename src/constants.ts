@@ -1,0 +1,50 @@
+export const competitions: { [key: number]: string } = {
+  1: "TSJCL Area F",
+  2: "TSJCL",
+  3: "NJCL",
+};
+
+export const contests: { [key: number]: string } = {
+  0: "Answer Key",
+
+  // Academic Contests
+  1: "Grammar 1/2 &amp; I (Elementary)",
+  2: "Grammar Advanced",
+  3: "Vocabulary",
+  4: "Latin Derivatives",
+  5: "Reading Comprehension I",
+  6: "Reading Comprehension II",
+  7: "Reading Comprehension Advanced Prose",
+  22: "Reading Comprehension Advanced Poetry",
+  23: "Reading Comprehension Advanced Prose &amp; Poetry",
+  8: "Mottoes &amp; Abbreviations",
+  9: "Mythology",
+  10: "Roman History",
+  11: "Roman Life",
+  12: "Latin Literature",
+  13: "Greek History",
+  14: "Greek Life & Literature",
+  15: "Greek Derivatives",
+  16: "Geography of the Ancient World",
+  17: "Sight Recitation I",
+  31: "Sight Recitation II",
+  32: "Sight Recitation III (Prose)",
+  33: "Sight Recitation IV+ (Poetry)",
+  18: "Dramatic Interpretation I - Boys",
+  25: "Dramatic Interpretation II - Boys",
+  26: "Dramatic Interpretation Advanced - Boys",
+  19: "Dramatic Interpretation I - Girls",
+  27: "Dramatic Interpretation II - Girls",
+  28: "Dramatic Interpretation Advanced - Girls",
+  21: "Latin Oratory I",
+  29: "Latin Oratory II",
+  30: "Latin Oratory Advanced",
+  20: "Decathlon",
+  35: "Classical Art",
+  36: "Pentathlon",
+
+  // Academic Contests: Nationals-specific
+  24: "Heptathlon",
+  34: "Grammar II",
+  37: "Greek Language",
+};
