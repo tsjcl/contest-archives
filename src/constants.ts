@@ -20,6 +20,8 @@ export const contests: { [key: number]: string } = {
   8: "Mottoes &amp; Abbreviations",
   9: "Mythology",
   10: "Roman History",
+  38: "Roman History Monarchy &amp; Republic",
+  39: "Roman History Empire",
   11: "Roman Life",
   12: "Latin Literature",
   13: "Greek History",
